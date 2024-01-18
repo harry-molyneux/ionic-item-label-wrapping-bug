@@ -7,6 +7,7 @@ import {
     IonItem,
     IonLabel,
     IonList,
+    IonListHeader,
     IonTitle,
     IonToolbar
 } from '@ionic/angular/standalone';
@@ -27,6 +28,7 @@ import {FormsModule} from '@angular/forms';
         FormsModule,
         IonLabel,
         IonBadge,
+        IonListHeader,
     ],
 })
 export class FormPage {
